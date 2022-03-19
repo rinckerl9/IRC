@@ -1,0 +1,72 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: #fff solid 1px;
+}
+
+#root {
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.loginContainer {
+    height: 55%;
+    width: 40%;
+    border-radius: 8px;
+    background-image: grey;
+    border: #fff solid 1px;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+.login {
+    padding: 15px 20px;
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: #2F2F33;
+    color: #fff;
+    font-size: 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #000;
+    border-radius: 5px;
+}
+
+.heading {
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.voidContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #1A1A1D;
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 90%;
+    background: linear-gradient(to right, #f12711, #f5af19, #f5af19, #f12711);
+    background-size: 200% auto;
+    animation: gradientBG 1s ease infinite;
+}

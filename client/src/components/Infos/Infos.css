@@ -1,0 +1,26 @@
+.infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #f12711, #f5af19, #f5af19, #f12711);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 60px;
+    width: 100%;
+    border-bottom: white solid 1px;
+}
+
+.left {
+    display: flex;
+    flex: 0.6;
+    color: white;;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.right {
+    display: flex;
+    flex: 0.6;
+    justify-content: flex-end;
+    margin-right: 5%;
+}

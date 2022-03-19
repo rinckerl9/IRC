@@ -1,0 +1,14 @@
+.msg {
+    color: whitesmoke;
+    overflow: auto;
+    flex: auto;
+    padding: 5px;
+}
+
+#sender_name {
+    font-weight: bold;
+}
+
+.sender_self {
+    font-style: italic;
+}

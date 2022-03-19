@@ -1,0 +1,20 @@
+.around {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1A1A1D;
+}
+
+.container {
+    border-radius: 8px;
+    background-image: grey;
+    border: #fff solid 1px;
+    box-shadow: 0px 0px 10px #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 80%;
+    width: 60%;
+}
